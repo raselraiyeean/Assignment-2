@@ -1,0 +1,592 @@
+
+/* Responsive style for above 993px start */
+@media screen and (min-width: 993px) and (max-width: 1175px) {
+    .our-team-image-box img {
+        width: 247px;
+        height: 281px;
+    }
+
+    .name-designation {
+        top: 195px;
+        left: 10px;
+    }
+
+    
+
+    
+}
+/* Responsive style for above 993px end */
+
+/* Responsive Style for min-width 576px and max-width 992px start */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-style ul {
+        display: none;
+    }
+    .nav-style {
+        border: none;
+    }
+    .nav-style img {
+        display: block;
+        
+    }
+    .common-container {
+        width: 95%;
+        margin: 0 auto;
+      }
+
+      .common-description {
+        color: #b8b8b8;
+        font-size: 1.5rem;
+    }
+    
+    .header-part-2 {
+        flex-direction: column;
+    } 
+
+    .header-text-container h1 {
+        font-weight: 900;
+        font-size: 6rem;
+        margin-bottom: 70px;
+        line-height: 80px;
+    }
+
+    .fitness-center-name h1 {
+        font-weight: 900;
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .header-part-1 {
+        margin-top: 90px;
+    }
+
+    .nav-style ul li a {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .Home-button {
+        width: 120px;
+        height: 40px;
+        padding: 10px;
+    }
+    .header-text-image-1 .common-description {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .header-text-container button, .left-column-description button, .calculate-form button {
+        padding: 25px 60px;
+        border-radius: 60px;
+        margin-right: 15px;
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-top: 25px;  
+    }
+
+    .header-image-container {
+        display: grid;
+        justify-items: center;
+    }
+    .header-image-container img {
+        width: 80%;
+    }
+
+    .opacity-area-1, .opacity-area-2 {
+        width: 256px;
+        background: #55453e;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .opacity-area-2 {
+        top: 33%;
+        left: 49%;
+    }
+    .circle-tomato {
+        width: 80px;
+        height: 80px; 
+    }
+
+    .opacity-area-1 h3 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .opacity-area-2 h3 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .circle-image-div {
+        gap: 15px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .circle-image {
+        width: 80%;
+    }
+    .circle-image img {
+        width: 80%;
+    }
+    .left-column-description h1 {
+        font-weight: 900;
+        font-size: 3.4rem;
+        margin: 5px;
+        line-height: 60px;
+        word-spacing: -6px;
+        margin-bottom: 30px;
+    }
+
+     .left-column-description button {
+        padding: 25px 120px;
+        border-radius: 70px;
+        margin-right: 15px;
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-top: 25px;
+    }
+
+    .bmi-calculator-box {
+        flex-direction: column;
+    }
+
+    .bmi-calculator-box {
+        padding: 50px 50px;
+        gap: 40px;
+    }
+    table {
+        width: 500px;
+        font-size: 1.6rem;
+    }
+    .bmi-chart h2, .bmi-head-description h2 {
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+    .input-box input {
+        padding: 25px 20px;
+        border-radius: 15px;
+        font-size: 1.8rem;
+    }
+    .calculate-form button {
+        padding: 23px 111px;
+        font-weight: 500;
+        font-size: 2rem;
+        float: left;
+        letter-spacing: 1px;
+    }
+    .our-team-image-box img {
+        width: 260px;
+        height: 296px;
+        
+    }
+    .our-team-image-box img {
+        width: 244px;
+        height: 264px;
+    }
+    .footer-column-1 {
+        width: 70%;
+    }
+
+      .footer-section {
+        grid-template-areas: 
+        "footer-column-1 footer-column-1" 
+        " footer-column-2 footer-column-3"
+        ;
+    } 
+    .footer-column h1 {
+        font-weight: 1000;
+        font-size: 5rem;
+    }
+
+    .footer-column h2 {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    .footer-column ul li {
+        font-size: 2.5rem;
+        line-height: 73px;
+    }
+    .copyright-text {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    
+    .opacity-area-1 {
+        top: 72%;
+        left: 6%;
+    }
+    
+        /* .opacity-area-2 {
+            top: -660px;
+            left: 232px;
+        } */
+        .header-part-1 {
+            gap: 40px;
+            align-items: center;
+        }
+    
+        .our-team-image-box img {
+            width: 268px;
+            height: 264px;
+        }
+
+        .our-team-image-box img {
+            width: 247px;
+            height: 252px;
+        }
+
+        .name-designation {
+            position: absolute;
+            top: 173px;
+            left: 10px;
+        }
+    
+        .new-div-running-exercise {
+            
+            gap: 10px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .right-column-image img {
+            
+            width: 100%;
+        }
+    
+        .our-team-image-box {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .bmi-calculator-box {
+            padding: 40px 11px;
+            gap: 40px;
+        }
+        .calculate-form {
+            width: 100%;
+        }
+    
+        .input-box input {
+            padding: 15px 5px;
+            border-radius: 15px;
+            font-size: 1.3rem;
+        }
+
+        .input-box input {
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+    
+
+}
+/* Responsive Style for min-width 576px and max-width 992px end */
+
+
+
+
+/* Responsive Style for max-width 576px start */
+@media screen and (max-width: 576px) {
+
+    .common-container {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .common-description {
+        font-size: 1.5rem;
+        color: #a4a5a3;
+        line-height: 37px;
+    }
+
+    .nav-style {
+        border: none;
+    }
+    .nav-style ul {
+        display: none;
+    }
+    .nav-style img {
+        display: block;
+    }
+    .header-part-1 {
+        align-items: center;
+    }
+
+    .fitness-center-name h1 {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+   
+    .header-part-2 {
+        flex-direction: column;
+        margin-top: -7px;
+    }
+    .header-text-container h1{
+        font-size: 4rem;
+    }
+
+    .header-image-container img {
+        width: 100%;
+    }
+    .header-image-container {
+        display: grid;
+        justify-items: center;
+    }
+
+    .header-text-image-1 .common-description {
+        font-size: 1.5rem;
+        
+    }
+
+
+    .header-btn-container {
+        display: flex;
+        gap: 10px;
+    }
+    .header-btn-container button {
+        padding: 25px 45px;
+        font-size: 1.1rem;
+    }
+    .opacity-area-1 {
+        top: 57%;
+        left: 9%;
+    }
+
+    .opacity-area-2 {
+        top: 29%;
+        left: 53%;
+    }
+    .circle-image-div {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        text-align: center;
+    }
+    .change-habits-section {
+        margin-top: 76px;
+    }
+    
+    .change-head-description h1 {
+        font-size: 2.8rem;
+        margin: 7px;
+    }
+    .circle-image img {
+        width: 70%;
+    }
+    .circle-image h5 {
+        font-size: 1.8rem;
+    }
+
+    .new-div-running-exercise {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left-column-description h1 {
+        font-weight: 800;
+        font-size: 3.5rem;
+        margin: 1px;
+        text-align: center;
+        line-height: 57px;
+    }
+
+    .left-column-description button {
+        width: 100%;
+        padding: 30px;
+        font-size: 1.8rem;
+    }
+
+    .right-column-image img {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+
+    .bmi-calculator-box {
+        flex-direction: column;
+    }
+    .bmi-calculator h1 {
+        font-size: 3.5rem;
+    }
+    .bmi-calculator-box {
+        padding: 50px 5px;
+        gap: 45px;
+    }
+
+    table tr {
+        font-size: 1.5rem;
+    }
+    table th {
+        font-size: 1.5rem;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .bmi-chart h2, .bmi-head-description h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .calculate-form {
+        width: 100%;
+    }
+
+    .input-box input {
+        padding: 25px 5px;
+        font-size: 1rem;
+    }
+
+
+    .our-team-image-box {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .calculate-form button {
+        width: 80%;
+        padding: 30px;
+        font-size: 1.5rem;
+        float: left;
+    }
+
+    .meet-team-container h1 {
+        font-size: 3.5rem; 
+    }
+    .our-team-image-box img {
+        width: 360px;
+        height: 318px;
+    }
+
+    .footer-section {
+        grid-template-areas: 
+        "footer-column-1"
+        "footer-column-2"
+        "footer-column-3";
+    }
+
+    .footer-section {
+        gap: 40px;
+    }
+
+    .footer-column h2 {
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 5px;
+    }
+
+    .footer-column ul li {
+        font-size: 2rem;
+        line-height: 53px;
+    }
+    .common-description {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .input-box {
+        
+        gap: 10px;
+        grid-template-areas: 
+        "input-1" "input-2" "input-3" "input-4" "input-5" "input-6";
+        margin-top: 20px;
+    }
+    .opacity-area-1 {
+        top: 71%;
+        left: 0px;
+    }
+   
+    .opacity-area-1, .opacity-area-2 {
+        width: 150px;
+    }
+    .opacity-area-1 h3 {
+        font-size: 1.5rem;
+    }
+    .input-box input {
+        padding: 25px 25px;
+        font-size: 1rem;
+    }
+    .our-team-image-box img {
+        width: 312px;
+        height: 274px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .common-container {
+        width: 95%;
+        margin: 0 auto;
+      }
+      .header-text-container h1 {
+        font-size: 3.1rem;
+    }
+
+    .nav-style {
+        border: none;
+    }
+    .nav-style ul {
+        display: none;
+    }
+    .nav-style img {
+        display: block;
+    }
+    .header-part-1 {
+        align-items: center;
+    }
+    
+    .header-btn-container button {
+        padding: 11px 15px;
+        font-size: 1.1rem;
+    }
+    
+    
+    
+    .opacity-area-2 {
+        top: -517px;
+        left: 151px;
+    }
+    
+    .common-description {
+        font-size: 1.2rem;
+        color: #a4a5a3;
+        line-height: 25px;
+    }
+    
+    .opacity-area-2 h3 {
+        font-size: 1.5rem;
+    }
+    
+    .change-habits-section {
+        margin-top: 57px;
+    }
+    
+    .input-box {
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 
+        "input-1" "input-2" "input-3" "input-4" "input-5" "input-6";
+        margin-top: 20px;
+    }
+    .our-team-image-box img {
+        width: 332px;
+        height: 312px;
+    }
+
+    .our-team-image-box img {
+        width: 300px;
+        height: 312px;
+    }
+
+   
+
+    .opacity-area-2 {
+        top: 31%;
+        left: 50%;
+    }
+    .our-team-image-box img {
+        width: 255px;
+        height: 300px;
+    }
+    .bmi-calculator h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .header-text-container h1 span {
+        font-family: Kunstler Script;
+        font-size: 10rem;
+    }
+}
+
+/* Responsive Style for max-width 576px End */
+
+
+
